@@ -44,14 +44,14 @@ def sudoku4(mat ):
                     return True
                 else:
                     mat[f][c] = 0
-                    return False
+                    
         return False
 
 mat = [
     [0,0,2,0],
     [4,2,0,0],
     [0,0,0,0],
-    [2,0,0,0]
+    [2,0,0,3]
 ]
 print(f"X{0},{0} = {mat[0][0]}")
 if sudoku4(mat):
